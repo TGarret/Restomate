@@ -1,25 +1,23 @@
-// Place all the styles related to the Home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 head {
+	width: 450px;
+	height: 250px;
 	text-align: center;
-	width: 100%;
+	background-color: red;
 }
 
 body { 
-	width: 70%;
 	display: flex;
-	justify-content: center;
 	border: 2px solid grey;
 	margin-right: 15%;
 	margin-left: 15%;
+	width: 70%;
+	justify-content: center;
 	height: 600px;
 }
 
 button{
-		border: none;
 		font-size: 14px;
+		border: none;
 		height: 50px;
 }
 
@@ -32,7 +30,7 @@ button:focus{
 
 .choix1, .choix2, .choix3{
 	width: 30%;
-	padding-top: 30px;
+	margin-top: 30px;
 }
 
 #cache1{
